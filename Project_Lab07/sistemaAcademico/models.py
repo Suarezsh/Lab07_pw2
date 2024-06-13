@@ -28,3 +28,5 @@ class NotasAlumnoPorCurso(models.Model):
 
     def __str__(self):
         return f"Nota de \"{self.alumno}\" en \"{self.curso}\": {self.nota}"
+    
+    
